@@ -6,7 +6,16 @@ sudo apt-get install python-pip
 sudo pip install --upgrade pip
 
 # Glances is a cross-platform system monitoring tool written in Python.
-sudo pip install glances
+pip install glances
+
+# RouterSploit - Exploitation Framework for Embedded Devices.
+pip install --upgrade pip
+sudo add-apt-repository universe
+sudo apt-get install git python3-pip
+git clone https://www.github.com/threat9/routersploit
+cd routersploit
+python -m pip install -r requirements.txt
+# python rsf.py
 
 # update & upgrade #
 #sudo apt-get update
